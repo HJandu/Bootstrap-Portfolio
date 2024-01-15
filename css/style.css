@@ -1,4 +1,33 @@
 .nav-my-background {
     background-color: brown;
-    height: 75px;
+    height: 100px;
+    font-size:20px;
 }
+
+a.navbar-brand {
+    font-size: 30px;
+}
+
+
+
+
+/* .img-fluid {
+    height: 300px;
+    width: 300px;
+} */
+
+.rounded-start {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-title {
+    font-size: 50px;
+    color: black;
+}
+
+.card-text {
+    font-size: 20px;
+    color: black;
+}
+
