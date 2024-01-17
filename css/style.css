@@ -45,6 +45,14 @@ main.container-fluid {
   border-top: 0.25rem solid #64a19d;
 }
 
+h5.card-title.text-center::after {
+  content: " ";
+  display: inline-block;
+  background: url(../images/hello_wave.jpg) no-repeat top right / 100% 100%;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  }
 
 
 /* projects section */
@@ -112,6 +120,15 @@ main.container-fluid {
     }
     .contact-section .social a:active {
       color: #fff;
+    }
+
+    h3.sectionHeading::after {
+      content: " ";
+      display: inline-block;
+      background: url("../images/contact_me.jpeg") no-repeat top right / 100% 100%;
+      width: 100px;
+      height: 100px;
+      margin-left: 10px;
     }
     
   
