@@ -7,43 +7,46 @@
 ## <ins>About</ins>
 In this assignment, I built my portfolio layout using the Bootstrap CSS Framework from scratch. <br>
 
-Using Bootstrap, recreate your portfolio site with the following items:
+My portfolio site includes the following items:
 
-A navigation bar
+* A navigation bar
 
-A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+* A navigation menu at the top right-hand corner.
 
-Include links that are applicable to your portfolio.
+* Includes links that are applicable to my portfolio.
 
-Links should navigate to the appropriate sections
+* Links that navigate to the appropriate sections.
 
-A hero section
+* A hero section and a jumbotron featuring a picture of my avatar, and my name, along with a short greeting.
+  
+* A work section which showcases some of my projects.
 
-A jumbotron featuring your picture, your name, and any other information you'd like to include.
-A work section
+* A section displaying my work using grids.
 
-A section displaying your work in grid.
+* Bootstrap cards used for each project.
 
-If you need to use placeholder image use placehold.coLinks to an external site.
+* A brief overview of the work.
 
-Use Bootstrap cards for each project.
+* A skills section, which lists all the skills I have learned from the bootcamp.
+  
+*An about/contact section, which is displayed in the same row.
 
-The description should give a brief overview of the work.
+* A footer section.
 
-Each project will eventually link to your class project work!
+* All hyperlinks have a hover effect and all buttons display a box shadow upon hover.
 
-A skills section
+## <ins>Additional Features</ins>
+On my Bootstrap Portolio, you will find a fixed button which allows you to go to the top of the page, to access the main menu. 
 
-List out the skills you expect to learn from the bootcamp.
-An about/contact section
+insert pic here
 
-An About Me section in the same row.
-A footer section
+I have also included Github, Linkedin and Mail icons using the .......
 
-All hyperlinks should have a hover effect.
+insert pic here 
 
-All buttons should display a box shadow upon hover.
 
-Your Bootstrap solution should minimize use of media queries.
+This Bootstrap Portfolio minimizes the use of media queries.
 
-Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+You can find the deployed web page [here]("   ")
+
+
