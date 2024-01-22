@@ -23,8 +23,7 @@
   <!-- Custom styles for this template -->
   <link href="./css/style.css" rel="stylesheet">
 
-  <link
-   rel="icon" type="image/x-icon" href="./images/under_chin.jpeg">
+  <link rel="icon" type="image/x-icon" href="./images/under_chin.jpeg">
   <title>Hardip's Profile</title>
 </head>
 
@@ -40,13 +39,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+            <a class="nav-link" href="#about/contact">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#my-work">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#about/contact">Contact</a>
           </li>
 
         </ul>
@@ -79,109 +81,134 @@
       </div>
     </section>
 
-    <!-- About Me Section-->
-    <section id="about-me">
-      <div class="card mb-3">
-        <img src="./images/laptop_notebook.jpg" class="card-img-top" alt="Laptop with note">
-        <div class="card-body">
-          <h5 class="card-title text-center"><ins>About Me</ins></h5><br>
-          <p class="card-text text-center"> I led with care, in a primary school's room. <br>As a senior leader, with wisdom and grace,<br>
-            Nurturing futures, in that sacred space.<br>            
-            But now the winds of change blow strong,<br>
-            A new chapter beckons, a different song.<br>
-            From classrooms to code, a leap of delight,<br>
-            As a web developer, I take my flight.<br><br>Transitioning from a Senior leader in a Primary School, <br>into the World of Tech. <br>Lines of code, a language profound, <br>Replacing lesson plans, a new playground. <br>Pixels and patterns, in a digital dance, <br>I craft a future with every advance.<br> No more recess bells or chalk-stained hands, <br>Now it's keyboards and algorithms that command.<br><br> From chalkboards to screens, a seamless transition, <br>A senior leader reborn in the web's rendition. <br>In the vast expanse of virtual realms, <br>I navigate with purpose, at the helm.<br><br> From school corridors to cyberspace,<br> A leader's journey finds a new embrace.<br> The canvas may change, but the heart remains,<br> In every project, the passion sustains.<br> From education's embrace to the web's unfold, <br>A senior leader's story, beautifully told.</p>
-        </div>
+<!-- fixed button to go to the top of the page -->
+    <section>
+      <div class="fixed-bottom">
+        <a href="#topOfpage" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Go to top</a>        
       </div>
     </section>
+
 
     <!-- Work Section -->
     <!-- <section class=work-section id="my-work"> -->
-      <div class="container-fluid content" id="my-work">
-          <h2 class="sectionHeading"><ins>A Few Of My Best Projects</ins></h2>
+    <div class="container-fluid content" id="my-work">
+      <h2 class="sectionHeading"><ins>A Few Of My Best Projects</ins></h2>
+    </div>
+    <div class="row projects">
+      <!-- Project 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/pokemon.jpg" class="card-img-top" alt="picture of pokemon">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon</h5>
+            <p class="card-text">Interactive dashboards with different visualisations. </p>
+            <a href="https://github.com/HJandu/Project_3-Pokemon" class="btn btn-primary">Click to view</a>
+          </div>
         </div>
-        <div class="row projects">
-          <!-- Project 1 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="./images/pokemon.jpg" class="card-img-top" alt="picture of pokemon">
-              <div class="card-body">
-                <h5 class="card-title">Pokemon</h5>
-                <p class="card-text">Interactive dashboards with different visualisations. </p>
-                <a href="https://github.com/HJandu/Project_3-Pokemon" class="btn btn-primary">Click to view</a>
-              </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/NHS-covid19.jpg" class="card-img-top" alt="covid19 logo">
+          <div class="card-body">
+            <h5 class="card-title">Covid19</h5>
+            <p class="card-text">This project looked at whether Covid19 had an affect on the sucide rate, in
+              England.</p>
+            <a href="https://github.com/HJandu/Project_1_Covid19" class="btn btn-primary">Click to view</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/creditrisk.jpg" class="card-img-top" alt="scrabble blocks spelling out credit risk">
+          <div class="card-body">
+            <h5 class="card-title">Credit Risk</h5>
+            <p class="card-text">Machine Learning used to train and evaluate various models based on loan
+              risk.</p>
+            <a href="https://github.com/HJandu/credit-risk-classification" class="btn btn-primary">Click to view</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills-section" id="skills">
+      <div class="container text-center">
+        <h3 class="sectionHeading"><ins>Skills</ins></h3>
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3">HTML</div>
+          </div>
+          <div class="col">
+            <div class="p-3">javaScript</div>
+          </div>
+          <div class="col">
+            <div class="p-3">React</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Web APIs</div>
+          </div>
+          <div class="col">
+            <div class="p-3">jQuery</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Bootstrap</div>
+          </div>
+          <div class="col">
+            <div class="p-3">CSS</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Node.js</div>
+          </div>
+          <div class="col">
+            <div class="p-3">UX</div>
+          </div>
+          <div class="col">
+            <div class="p-3">Server APIs</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- contact me and about section side by side -->
+    <section class="about/contact" id="about/contact">
+      
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center"><ins>About me</ins></h5>
+              <p class="card-text">A Senior Lead in a primary School, transitioning into the world of coding. Always looking for opportunities to further develop my Skills and Knowledge, through self study or online classes. </p>
             </div>
           </div>
-          <!-- Project 2 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="./images/NHS-covid19.jpg" class="card-img-top" alt="covid19 logo">
-              <div class="card-body">
-                <h5 class="card-title">Covid19</h5>
-                <p class="card-text">This project looked at whether Covid19 had an affect on the sucide rate, in
-                  England.</p>
-                <a href="https://github.com/HJandu/Project_1_Covid19" class="btn btn-primary">Click to view</a>
-              </div>
-            </div>
-          </div>
-          <!-- Project 3 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="./images/creditrisk.jpg" class="card-img-top" alt="scrabble blocks spelling out credit risk">
-              <div class="card-body">
-                <h5 class="card-title">Credit Risk</h5>
-                <p class="card-text">Machine Learning used to train and evaluate various models based on loan
-                  risk.</p>
-                <a href="https://github.com/HJandu/credit-risk-classification" class="btn btn-primary">Click to view</a>
-              </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center"><ins>Contact Me</ins></h5>
+              <p class="card-text">I look forward to hearing from you.</p>
+              <a href="https://www.linkedin.com/in/hardip-jandu-325526283/"
+                    class="mx-2">
+                    <i class="fa fa-linkedin-square fa_custom fa-3x"></i></a>
+                    <a href="mailto:hardipjandu@outlook.com" class="mx-2"><i
+                      class="fa fa-envelope fa_custom fa-3x"></i></a>
+                      <a href="https://github.com/HJandu" class="mx-2"><i
+                        class="fa fa-github-square fa_custom fa-3x"></i></a>
+                  
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- contact me -->
-    <section class="contact-section" id="contact">
-      <div class="container">
-        <h3 class="sectionHeading text-center"><ins>Contact Me</ins></h3>
-        <div class="row">
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Linkedin</h4>
-                <hr class="my-4" />
-                <div class="small text-black-50"><a href="https://www.linkedin.com/in/hardip-jandu-325526283/"
-                    class="mx-2">
-                    <i class="fa fa-linkedin-square fa_custom fa-3x"></i></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4" />
-                <div class="small text-black-50"><a href="mailto:hardipjandu@outlook.com" class="mx-2"><i
-                      class="fa fa-envelope fa_custom fa-3x"></i></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Github</h4>
-                <hr class="my-4" />
-                <div class="small text-black-50"><a href="https://github.com/HJandu" class="mx-2"><i
-                      class="fa fa-github-square fa_custom fa-3x"></i></a></div>
-              </div>
-            </div>
-          </div>
-        </div>
 
     </section>
 
+       
+<!-- footer -->
     <footer>
       <div class="container">
         <p>&copy; Hardip Jandu 2024.</p>

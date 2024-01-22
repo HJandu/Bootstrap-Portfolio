@@ -39,20 +39,27 @@ main.container-fluid {
   border-top: 0.25rem solid #64a19d;
 }
 
+
+/* skill section */
+/* div.col {
+  border-bottom: 0.25rem solid #64a19d;
+  border-top: 0.25rem solid #64a19d;
+} */
+
+div.p-3 {
+  border-bottom: 0.25rem solid #64a19d;
+  border-top: 0.25rem solid #64a19d;
+  border-left: 0.25rem solid #64a19d;
+  border-right: 0.25rem solid #64a19d;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* about me */
 .card {
   border-bottom: 0.25rem solid #64a19d;
   border-top: 0.25rem solid #64a19d;
 }
-
-h5.card-title.text-center::after {
-  content: " ";
-  display: inline-block;
-  background: url(../images/hello_wave.jpg) no-repeat top right / 100% 100%;
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  }
 
 
 /* projects section */
@@ -83,7 +90,8 @@ h5.card-title.text-center::after {
 
    
  
-    /* contact me section */
+    /* about me and contact me section */
+    
   
     .contact-section .card {
       border: 0;
@@ -115,26 +123,16 @@ h5.card-title.text-center::after {
       line-height: 3rem;
       color: rgba(255, 255, 255, 0.3);
     }
-    .contact-section .social a:hover {
-      color: rgba(255, 255, 255, 0.5);
-    }
-    .contact-section .social a:active {
-      color: #fff;
-    }
-
-    h3.sectionHeading::after {
-      content: " ";
-      display: inline-block;
-      background: url("../images/contact_me.jpeg") no-repeat top right / 100% 100%;
-      width: 100px;
-      height: 100px;
-      margin-left: 10px;
+   
+   .col-sm-6 {  
+     margin-top: 30px;
     }
     
   
 
     .fa_custom {
-      color: blue
+      color: rgb(0, 140, 255)
+      align-items: center;
       }
     
     footer {
@@ -149,7 +147,20 @@ h5.card-title.text-center::after {
       margin: 0;
       color:black
     }
-    
+
+    /* fixed button to go back to the top */
+    a.btn.btn-primary.btn-lg.active {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #64a19d;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border: none;
+      border-radius: 50%;
+      font-size: 18px;
+    }
     
     
     
