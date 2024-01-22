@@ -43,7 +43,11 @@ On my Bootstrap Portolio, you will find a fixed button which allows you to go to
 /p>
   
 
-I have also included Github, Linkedin and Mail icons using the .......
+I have also included Github, Linkedin and Mail icons using the 'Font Awesome'. To use the Font Awesome icons, I included the following line inside the <head> section of my HTML page:
+
+
+link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
 
 <p align="center">
 <img src="images/icons.jpg" width=70% height=300
