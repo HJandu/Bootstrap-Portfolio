@@ -28,11 +28,21 @@ My portfolio site includes the following items:
 * A brief overview of the work.
 
 * A skills section, which lists all the skills I have learned from the bootcamp.
+  
 *An about/contact section, which is displayed in the same row.
 
 * A footer section.
 
 * All hyperlinks have a hover effect and all buttons display a box shadow upon hover.
+
+## <ins>Additional Features</ins>
+On my Bootstrap Portolio, you will find a fixed button which allows you to go to the top of the page, to access the main menu. 
+
+insert pic here
+
+I have also included Github, Linkedin and Mail icons using the .......
+
+insert pic here 
 
 
 This Bootstrap Portfolio minimizes the use of media queries.
