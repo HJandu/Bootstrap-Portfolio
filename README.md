@@ -29,7 +29,7 @@ My portfolio site includes the following items:
 
 * A skills section, which lists all the skills I have learned from the bootcamp.
   
-*An about/contact section, which is displayed in the same row.
+* An about/contact section, which is displayed in the same row.
 
 * A footer section.
 
