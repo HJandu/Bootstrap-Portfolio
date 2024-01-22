@@ -38,11 +38,16 @@ My portfolio site includes the following items:
 ## <ins>Additional Features</ins>
 On my Bootstrap Portolio, you will find a fixed button which allows you to go to the top of the page, to access the main menu. 
 
-insert pic here
+<p align="center">
+<img src="images/go to top button.jpg" width=70%% height=300
+/p>
+  
 
 I have also included Github, Linkedin and Mail icons using the .......
 
-insert pic here 
+<p align="center">
+<img src="images/icons.jpg" width=70% height=300
+/p>
 
 
 This Bootstrap Portfolio minimizes the use of media queries.
